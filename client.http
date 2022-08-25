@@ -1,0 +1,51 @@
+POST http://127.0.0.1:8000/api/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "sample42@yahoo.com",
+    "password": "efefefefe@efefefef.com"
+}
+
+
+###
+POST http://127.0.0.1:8000/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "sample42@yahoo.com",
+    "password": "efefefefe@efefefef.com"
+}
+
+###
+POST http://127.0.0.1:8000/api/addeducation HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYxODM5Mzg2MSwiZXhwIjoxNjE4Mzk3NDYxLCJuYmYiOjE2MTgzOTM4NjEsImp0aSI6Ik81OUxDaW5YY2JEalFtWWgiLCJzdWIiOjIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.MseG4DrpElLaZgyRS2MF1M2DWLuEBRnP6E24LU-fv8Y
+content-type: application/json
+
+{
+    "start_month": "01",
+    "end_month": "05",
+    "start_year": "2001",
+    "end_year": "2005",
+    "school": "Unilag",
+    "course": "Mechanical",
+    "class_of_degree": "Bsc",
+}
+
+
+###
+###
+POST http://127.0.0.1:8000/api/addeducation HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYxODM2Mzc5NCwiZXhwIjoxNjE4MzY3Mzk0LCJuYmYiOjE2MTgzNjM3OTQsImp0aSI6IjNFZTlValRVcDNJVTBDNEYiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.EYN5r7lUyLxY7cLQKLKUvLFP2vbbXme_wFd_Gs8W-sc
+content-type: application/json
+
+{
+    "start_month": "01",
+    "end_month": "05",
+    "start_year": "2001",
+    "end_year": "2005",
+    "school": "Unilag",
+    "course": "Mechanical",
+    "class_of_degree": "Bsc",
+}////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////j                                                                                                                                                                                                                                                                                                                                                  
+
+
